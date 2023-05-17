@@ -73,7 +73,7 @@ filterButtons.forEach(function(button) {
       return product.type === type;
     });
     if(type){
-    displayProducts(filteredProducts);
+      displayProducts(filteredProducts);
 }else{
     displayProducts(products)
 }

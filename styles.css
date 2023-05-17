@@ -55,9 +55,15 @@ nav ul {
       color: #f58220;
       padding: 10px 15px; 
       margin: 2px 5px;
+      font-size: medium;
       background-color: transparent;
       border-radius: 7px 7px 0px 0px;
 
+    }
+
+    .filter-buttons:focus{
+      background-color: #f58220;
+      color: aliceblue
     }
 
     .product-list {
@@ -73,6 +79,7 @@ nav ul {
                     1px -1px 0 #000,
                     -1px -1px 0 #000;
       font-size: 14px;
+      padding: 0px 5px;
       padding-top: 15px;
     }
 
