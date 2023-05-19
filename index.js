@@ -20,8 +20,8 @@ const products = [
     { name: "• FRUTILLA A LA CREMA", description: "Crema, leche, y frutillas naturales.", type: "Frutas a la Crema" },
     { name: "• CEREZA A LA CREMA", description: "Crema, leche y cerezas al marrasquino.", type: "Frutas a la Crema" },
     { name: "• MOUSSE DE LIMÓN", description: "Crema a base de leche y jugo de limón natural.", type: "Frutas a la Crema" },
-    { name: "• FRUTILLA AL AGUA", description: "", type: "Frutas a la Crema" },
-    { name: "• LIMON", description: "", type: "Frutas a la Crema" },
+    { name: "• FRUTILLA AL AGUA", description: "", type: "Frutas Naturales" },
+    { name: "• LIMON", description: "", type: "Frutas Naturales" },
   ];
   
   const productList = document.querySelector(".product-list");
