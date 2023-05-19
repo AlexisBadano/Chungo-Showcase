@@ -20,16 +20,8 @@ const products = [
     { name: "• FRUTILLA A LA CREMA", description: "Crema, leche, y frutillas naturales.", type: "Frutas a la Crema" },
     { name: "• CEREZA A LA CREMA", description: "Crema, leche y cerezas al marrasquino.", type: "Frutas a la Crema" },
     { name: "• MOUSSE DE LIMÓN", description: "Crema a base de leche y jugo de limón natural.", type: "Frutas a la Crema" },
-    { name: "", description: "", type: "Frutas a la Crema" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
-    { name: "", description: "", type: "" },
+    { name: "• FRUTILLA AL AGUA", description: "", type: "Frutas a la Crema" },
+    { name: "• LIMON", description: "", type: "Frutas a la Crema" },
   ];
   
   const productList = document.querySelector(".product-list");
@@ -68,7 +60,6 @@ const filterButtons = document.querySelectorAll("#filter-buttons");
 filterButtons.forEach(function(button) {
   button.addEventListener("click", function() {
     const type = button.dataset.type;
-    console.log(type)
     const filteredProducts = products.filter(function(product) {
       return product.type === type;
     });

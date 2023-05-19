@@ -47,7 +47,7 @@ nav ul {
       background-color: rgba(0, 0, 0, 0.4);
       display: flex;
       flex-wrap: wrap ;
-      justify-content: center;  
+      justify-content: space-evenly;  
       padding: 10px 5px;
     }
 
@@ -58,12 +58,17 @@ nav ul {
       font-size: medium;
       background-color: transparent;
       border-radius: 7px 7px 0px 0px;
+      border-block-end: none;
+      border: none;
 
     }
 
     .filter-buttons:focus{
       background-color: #f58220;
-      color: aliceblue
+      color: aliceblue;
+      border: solid 1px;
+      border-block-end: none;
+      border-color: #fff;
     }
 
     .product-list {
